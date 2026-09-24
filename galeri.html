@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" 
+content="width=device-width, initial-scale=1.0">
+<title>Galeri</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+<body>
+
+
+<header>
+
+  <div class="logo">
+    <h1>UZMANLAR OTO SERVİS</h1>
+    <p>Mekanik • Elektrik • Kaporta • Boya</p>
+  </div>
+
+  <div class="menu-btn">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+<nav>
+
+    <a href="index.html">Anasayfa</a>
+
+    <a href="index.html#hakkimizda">Hakkımızda</a>
+
+    <a href="index.html#hizmetler">Hizmetler</a>
+
+    <a href="galeri.html">Galeri</a>
+
+    <a href="iletisim.html">İletişim</a>
+
+</nav>
+
+</header>
+
+<section class="hero small-hero">
+<div class="overlay"></div>
+<div class="hero-content">
+<h2>Galeri</h2>
+<p>Çalışmalarımızdan Kareler</p>
+</div>
+
+</section>
+<section class="gallery-page">
+
+<div class="gallery-tabs">
+
+<button class="tab-btn active"
+onclick="showGallery('mekanik', this)">
+Mekanik
+</button>
+
+<button class="tab-btn"
+onclick="showGallery('elektrik', this)">
+Elektrik
+</button>
+
+<button class="tab-btn"
+onclick="showGallery('kaporta', this)">
+Kaporta
+</button>
+
+<button class="tab-btn"
+onclick="showGallery('boya', this)">
+Boya
+</button>
+
+<button class="tab-btn"
+onclick="showGallery('dukkan', this)">
+Dükkan
+</button>
+
+</div>
+
+<section>
+
+<div class="gallery-section active" id="mekanik">
+<div class="gallery">
+<img src="images/mekanik1.png">
+<img src="images/mekanik2.png">
+<img src="images/mekanik3.jpeg">
+<img src="images/mekanik4.png">
+</div>
+</div>
+
+<div class="gallery-section" id="elektrik">
+<div class="gallery">
+<img src="images/elektrik1.jpeg">
+<img src="images/elektrik2.png">
+<img src="images/elektrik3.png">
+<img src="images/elektrik4.png">
+</div>
+</div>
+
+<div class="gallery-section" id="kaporta">
+<div class="gallery">
+<img src="images/kaporta1.png">
+<img src="images/kaporta2.png">
+<img src="images/kaporta3.jpeg">
+<img src="images/kaporta4.png">
+</div>
+</div>
+
+<div class="gallery-section" id="boya">
+<div class="gallery">
+<img src="images/boya1.png">
+<img src="images/boya2.png">
+<img src="images/boya3.png">
+<img src="images/boya4.png">
+</div>
+</div>
+
+<div class="gallery-section" id="dukkan">
+<div class="gallery">
+<img src="images/dükkan1.png">
+<img src="images/dükkan2.jpeg">
+<img src="images/dükkan3.png">
+<img src="images/dükkan4.png">
+</div>
+</div>
+
+</section>
+
+</section>
+
+<div class="lightbox">
+    <img src="" alt="">
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
